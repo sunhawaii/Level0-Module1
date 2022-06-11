@@ -24,6 +24,9 @@ Text Rendering Example:
 canvas.create_text(100, 50, text="text goes here", font=("Arial", 16))
 '''
 # Put your code below
+ice_cream_text= 'ice cream'
+for i in range(3):
+    canvas.create_text(100, 50, text= ice_cream_text , font=("Arial", 16))
 
 
 root.mainloop()
